@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'greatvibes';
+    src: url('fonts/GreatVibes/GreatVibes-Regular.ttf');
+    font-weight: normal;
+}
+body {
+    height: 29.7cm;
+    width: 21cm;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sheetbox {
+    height: 28.7cm;
+    width: 20cm;
+    position: absolute;
+    margin: 0.5cm;
+    border: 0.2cm black solid;
+    text-align: center;
+}
+.systemtitle {
+    font-size: 2cm;
+    font-family: 'greatvibes';
+    text-transform: capitalize;
+}
