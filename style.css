@@ -14,12 +14,85 @@ body {
     height: 28.7cm;
     width: 20cm;
     position: absolute;
-    margin: 0.5cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.25cm;
+    margin-right: 0.25cm;
     border: 0.2cm black solid;
     text-align: center;
+    background-image: url("sephiroth-tree.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 .systemtitle {
+    margin-top: 0.2cm;
     font-size: 2cm;
     font-family: 'greatvibes';
     text-transform: capitalize;
+}
+.headerbox {
+    text-align: left;
+    margin-top: -1cm;
+    width:  100%;
+    height: 1.6cm;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+}
+.header-first {
+    order: 1;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    margin-bottom: -0.5mm;
+    margin-left: -0.2mm;
+    border-right: 1mm black solid;
+    border-bottom: 1mm black solid;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.header-name {
+    margin-top: 1mm;
+    margin-left: 1.2mm;
+    order: 1;
+}
+.header-player {
+    order: 3;
+    margin-left: 1.2mm;
+    margin-top: -4mm;
+    margin-bottom: -0.3mm;
+}
+.header-ancestry {
+    order: 2;
+    margin-left: 1.2mm;
+    margin-top: -4mm;
+}
+.header-second {
+    order: 2;
+    height: 100%;
+    width: 60%;
+    margin-bottom: -1.4mm;
+    border-bottom: 1mm black solid;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.header-ocupation {
+    margin-top: 1mm;
+    margin-left: 1mm;
+    order: 1;
+}
+.header-background {
+    margin-left: 1mm;
+    margin-top: -4mm;
+    order: 2;
+}
+.header-dream {
+    order: 3;
+    margin-left: 1mm;
+    margin-top: -4mm;
+    margin-bottom: -0.3mm;
 }
