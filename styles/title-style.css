@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'greatvibes';
+    src: url('../fonts/GreatVibes/GreatVibes-Regular.ttf');
+    font-weight: normal;
+}
+.systemtitle {
+    margin-top: 0.2cm;
+    font-size: 2cm;
+    font-family: 'greatvibes';
+    text-transform: capitalize;
+}
