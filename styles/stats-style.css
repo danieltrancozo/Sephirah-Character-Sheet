@@ -1,0 +1,129 @@
+.stats-title {
+    margin-top: 0.2cm;
+    text-transform: capitalize;   
+}
+.stats-box {
+    text-align: left;
+    margin-top: -0.5cm;
+    margin-left: 5%;
+    width:  90%;
+    height: 2.4cm;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+    border: 1mm black solid;
+}
+.stats-fisics {
+    order: 1;
+    width: 6cm;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -0.5mm;
+    margin-left: -0.2mm;
+    border-right: 1mm black solid;
+}
+.stats-strenght {
+    order: 1;
+    margin-top: 1mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-dexterity {
+    order: 2;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-stamina {
+    order: 3;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-key {
+    margin-top: 0mm;
+    order: 1;
+    margin-left: 1.2mm;
+}
+.stats-social {
+    order: 2;
+    width: 6cm;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -0.5mm;
+    margin-left: -0.2mm;
+    border-right: 1mm black solid;
+}
+.stats-manipulation {
+    order: 1;
+    margin-top: 1mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-charisma {
+    order: 2;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-presence {
+    order: 3;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-mental {
+    order: 2;
+    width: 6cm;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -0.5mm;
+    margin-left: -0.2mm;
+}
+.stats-intuition {
+    order: 1;
+    margin-top: 1mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-memory {
+    order: 2;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-wits {
+    order: 3;
+    margin-top: -3mm;
+    display: flex;
+    flex-direction: row;
+}
+.stats-key {
+    margin-top: 0mm;
+    width: 60%;
+    order: 1;
+    margin-left: 1.2mm;
+}
+.stats-value {
+    order: 2;
+    margin-top: 0mm;
+    margin-left: 0px;
+    height: 5mm;
+    width: 5mm;
+    border-radius: 3px;
+    border: 2px black solid;
+}

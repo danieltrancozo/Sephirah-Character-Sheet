@@ -1,55 +1,21 @@
-@font-face {
-    font-family: 'greatvibes';
-    src: url('fonts/GreatVibes/GreatVibes-Regular.ttf');
-    font-weight: normal;
-}
-body {
-    height: 29.7cm;
-    width: 21cm;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-.sheetbox {
-    height: 28.7cm;
-    width: 20cm;
-    position: absolute;
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-    margin-left: 0.25cm;
-    margin-right: 0.25cm;
-    border: 0.2cm black solid;
-    text-align: center;
-    background-image: url("sephiroth-tree.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-}
-.systemtitle {
-    margin-top: 0.2cm;
-    font-size: 2cm;
-    font-family: 'greatvibes';
-    text-transform: capitalize;
-}
 .headerbox {
     text-align: left;
     margin-top: -1cm;
     width:  100%;
-    height: 1.6cm;
+    height: 2.5cm;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: small;
+    font-size: 14pt;
     display: flex;
     flex-direction: row;
 }
 .header-first {
     order: 1;
     height: 100%;
-    width: 40%;
+    width: 45%;
     display: flex;
     margin-bottom: -0.5mm;
     margin-left: -0.2mm;
-    border-right: 1mm black solid;
     border-bottom: 1mm black solid;
     flex-direction: column;
     row-gap: 5px;
@@ -73,7 +39,7 @@ body {
 .header-second {
     order: 2;
     height: 100%;
-    width: 60%;
+    width: 55%;
     margin-bottom: -1.4mm;
     border-bottom: 1mm black solid;
     display: flex;

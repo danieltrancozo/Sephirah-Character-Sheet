@@ -1,0 +1,23 @@
+body {
+    height: 29.7cm;
+    width: 21cm;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sheetbox {
+    height: 28.7cm;
+    width: 20cm;
+    position: absolute;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.25cm;
+    margin-right: 0.25cm;
+    border: 0.2cm black solid;
+    text-align: center;
+    background-image: url('sephiroth-tree.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    backface-visibility: visible;
+}
