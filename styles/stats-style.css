@@ -20,8 +20,6 @@
     width: 6cm;
     height: 100%;
     margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     display: flex;
     flex-direction: column;
     margin-bottom: -0.5mm;
@@ -123,7 +121,6 @@
     margin-top: 0mm;
     margin-left: 0px;
     height: 5mm;
-    width: 5mm;
-    border-radius: 3px;
-    border: 2px black solid;
+    width: 1cm;
+    border-bottom: 2px black solid;
 }

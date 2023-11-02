@@ -1,0 +1,82 @@
+.bodybox{
+    position: relative;
+    background-color: aqua;
+    left: 0.5cm;
+    top: 0.2cm;
+    height: 19cm;
+    width: 19cm;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+}
+.coll1{
+    -ms-flex-order: 1;
+    width: 6.4cm;
+    flex-direction: column;
+}
+.coll2{
+    -ms-flex-order: 2;
+    width: 6.3cm;
+    display: flex;
+    flex-direction: column;
+}
+.coll3{
+    -ms-flex-order: 3;
+    width: 6.3cm;
+    display: flex;
+    flex-direction: column;
+}
+.abilitybox{
+    -ms-flex-order: 1;
+    position: relative;
+    top: 1mm;
+    left: 1mm;
+    border: 1px black solid;
+    height: 15.5cm;
+    width: 6.2cm;
+}
+.abilities-title{
+    position: relative;
+    top: -1mm;
+}
+.abilities-list{
+    position: relative;
+    top: -5mm;
+    left: 3mm;
+    text-align: left;
+}
+.experience-box{
+    -ms-flex-order: 2;
+    position: relative;
+    top: 3mm;
+    left: 1mm;
+    width: 6.2cm;
+    height: 3cm;
+    border: 1px black solid;
+}
+.magicafinitybox{
+    -ms-flex-order: 1;
+    height: 7cm;
+    background-color: aliceblue;
+}
+.databox{
+    -ms-flex-order: 1;
+    height: 7cm;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.otherabilitybox{
+    -ms-flex-order: 2;
+    height: 7cm;
+    background-color: aquamarine;
+}
+.languagesbox{
+    -ms-flex-order: 2;
+    height: 7cm;
+    background-color: purple;
+}
+.vitalitybox{
+    -ms-flex-order: 1;
+    background-color: red;
+}

@@ -28,3 +28,12 @@ body {
     background-position-x: center;
     background-position-y: center;
 }
+td.value{
+    position: relative;
+    left: 3mm;
+    width: 1cm;
+    border-bottom: 2px black solid;
+}
+.division{
+    
+}
