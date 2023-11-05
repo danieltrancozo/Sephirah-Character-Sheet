@@ -40,7 +40,7 @@
     margin-top: 5mm;
 }
 .abilities-list{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 8mm;
     text-align: left;
 }
@@ -49,7 +49,7 @@
     margin-top: 3mm;
     margin-left: 1mm;
     width: 6.4cm;
-    height: 4cm;
+    height: 4.8cm;
     border: 1px black solid;
 }
 .magic-sources{
@@ -64,7 +64,7 @@
     margin-top: 5mm;
 }
 .source-list{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 1cm;
     text-align: left;
 }
@@ -80,7 +80,7 @@
     margin-top: 5mm;
 }
 .afinity-list{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 5mm;
     text-align: left;
 }
@@ -88,7 +88,7 @@
     -ms-flex-order: 3;
     margin-top: 3mm;
     margin-left: 1mm;
-    height: 11.55cm;
+    height: 12.35cm;
     width: 6.4cm;
     border: 1px black solid;
 }
@@ -96,7 +96,7 @@
     margin-top: 5mm;
 }
 .blessings-list{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 2mm;
     text-align: center;
 }
@@ -112,7 +112,7 @@
     margin-top: 5mm;
 }
 .vitality-table{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 2cm;
     text-align: center;
 }
@@ -128,7 +128,7 @@
     margin-top: 5mm;
 }
 .mana-table{
-    margin-top: 5mm;
+    margin-top: 3mm;
     margin-left: 2cm;
     text-align: center;
 }
@@ -138,7 +138,7 @@
     top: 3mm;
     left: 1mm;
     width: 6.4cm;
-    height: 12.55cm;
+    height: 13.17cm;
     border: 1px black solid;
 }
 .notes-title{
