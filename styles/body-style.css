@@ -1,10 +1,8 @@
 .bodybox{
     position: relative;
-    background-color: aqua;
-    left: 0.5cm;
     top: 0.2cm;
-    height: 19cm;
-    width: 19cm;
+    height: 20cm;
+    width: 19.6cm;
     display: flex;
     flex-direction: row;
     text-transform: capitalize;
@@ -12,17 +10,20 @@
 .coll1{
     -ms-flex-order: 1;
     width: 6.4cm;
+    display: flex;
     flex-direction: column;
 }
 .coll2{
     -ms-flex-order: 2;
-    width: 6.3cm;
+    width: 6.4cm;
+    margin-left: 1mm;
     display: flex;
     flex-direction: column;
 }
 .coll3{
     -ms-flex-order: 3;
-    width: 6.3cm;
+    width: 6.4cm;
+    margin-left: 1mm;
     display: flex;
     flex-direction: column;
 }
@@ -32,51 +33,114 @@
     top: 1mm;
     left: 1mm;
     border: 1px black solid;
-    height: 15.5cm;
-    width: 6.2cm;
+    height: 15cm;
+    width: 6.4cm;
 }
 .abilities-title{
-    position: relative;
-    top: -1mm;
+    margin-top: 5mm;
 }
 .abilities-list{
-    position: relative;
-    top: -5mm;
-    left: 3mm;
+    margin-top: 5mm;
+    margin-left: 8mm;
     text-align: left;
 }
 .experience-box{
     -ms-flex-order: 2;
-    position: relative;
-    top: 3mm;
-    left: 1mm;
-    width: 6.2cm;
+    margin-top: 3mm;
+    margin-left: 1mm;
+    width: 6.4cm;
+    height: 4cm;
+    border: 1px black solid;
+}
+.magic-sources{
+    -ms-flex-order: 1;
+    margin-top: 1mm;
+    margin-left: 1mm;
+    width: 6.4cm;
     height: 3cm;
     border: 1px black solid;
 }
-.magicafinitybox{
-    -ms-flex-order: 1;
-    height: 7cm;
-    background-color: aliceblue;
+.source-title{
+    margin-top: 5mm;
 }
-.databox{
-    -ms-flex-order: 1;
-    height: 7cm;
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
+.source-list{
+    margin-top: 5mm;
+    margin-left: 1cm;
+    text-align: left;
 }
-.otherabilitybox{
+.magic-afinities{
     -ms-flex-order: 2;
-    height: 7cm;
-    background-color: aquamarine;
+    margin-top: 3mm;
+    margin-left: 1mm;
+    width: 6.4cm;
+    height: 4cm;
+    border: 1px black solid;
 }
-.languagesbox{
-    -ms-flex-order: 2;
-    height: 7cm;
-    background-color: purple;
+.afinity-title{
+    margin-top: 5mm;
 }
-.vitalitybox{
+.afinity-list{
+    margin-top: 5mm;
+    margin-left: 5mm;
+    text-align: left;
+}
+.blessings{
+    -ms-flex-order: 3;
+    margin-top: 3mm;
+    margin-left: 1mm;
+    height: 11.55cm;
+    width: 6.4cm;
+    border: 1px black solid;
+}
+.blessings-title{
+    margin-top: 5mm;
+}
+.blessings-list{
+    margin-top: 5mm;
+    margin-left: 2mm;
+    text-align: center;
+}
+.vitality-box{
     -ms-flex-order: 1;
-    background-color: red;
+    width: 6.4cm;
+    height: 3cm;
+    margin-left: 1mm;
+    margin-top: 1mm;
+    border: 1px black solid;
+}
+.vitality-title{
+    margin-top: 5mm;
+}
+.vitality-table{
+    margin-top: 5mm;
+    margin-left: 2cm;
+    text-align: center;
+}
+.magic-box{
+    -ms-flex-order: 2;
+    margin-top: 3mm;
+    margin-left: 1mm;
+    width: 6.4cm;
+    height: 3cm;
+    border: 1px black solid;
+}
+.magic-title{
+    margin-top: 5mm;
+}
+.mana-table{
+    margin-top: 5mm;
+    margin-left: 2cm;
+    text-align: center;
+}
+.notes{
+    -ms-flex-order: 3;
+    position: relative;
+    top: 3mm;
+    left: 1mm;
+    width: 6.4cm;
+    height: 12.55cm;
+    border: 1px black solid;
+}
+.notes-title{
+    margin-top: 5mm;
 }

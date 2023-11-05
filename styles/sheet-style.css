@@ -1,17 +1,18 @@
+*{
+    margin: 0mm;
+    padding: 0mm;
+}
 body {
     height: 29.7cm;
     width: 21cm;
     position: absolute;
-    top: 0px;
-    left: 0px;
 }
 .sheetbox {
-    height: 28.7cm;
-    width: 20cm;
-    position: absolute;
+    height: 28.3cm;
+    width: 19.6cm;
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
-    margin-left: 0.25cm;
+    margin-left: 0.5cm;
     margin-right: 0.25cm;
     border: 0.2cm black solid;
     text-align: center;
@@ -20,8 +21,8 @@ body {
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
-    height: 100%;
-    width: 100%;
+    height: 28.3cm;
+    width: 19.6cm;
     background-image: url('../sephiroth-tree.png');
     filter: opacity(0.2);
     background-repeat: no-repeat;
@@ -34,6 +35,8 @@ td.value{
     width: 1cm;
     border-bottom: 2px black solid;
 }
-.division{
-    
+td.line{
+    width: 4.4cm;
+    height: 5mm;
+    border-bottom: 2px black solid;
 }

@@ -1,7 +1,6 @@
 .headerbox {
     text-align: left;
-    margin-top: -1cm;
-    width:  19.2cm;
+    width:  19.6cm;
     height: 2.5cm;
     text-transform: capitalize;
     font-weight: bold;
@@ -13,7 +12,7 @@
     order: 1;
     height: 100%;
     left: 4mm;
-    width: 9.6cm;
+    width: 9.8cm;
     display: flex;
     margin-bottom: -0.5mm;
     margin-left: -0.2mm;
@@ -28,18 +27,18 @@
 .header-player {
     order: 3;
     margin-left: 4mm;
-    margin-top: -4mm;
+    margin-top: 0mm;
     margin-bottom: -0.3mm;
 }
 .header-ancestry {
     order: 2;
     margin-left: 4mm;
-    margin-top: -4mm;
+    margin-top: 0mm;
 }
 .header-second {
     order: 2;
     height: 100%;
-    width: 9.6;
+    width: 9.8;
     margin-bottom: -1.4mm;
     display: flex;
     flex-direction: column;
@@ -52,12 +51,12 @@
 }
 .header-background {
     margin-left: 4mm;
-    margin-top: -4mm;
+    margin-top: 0mm;
     order: 2;
 }
 .header-dream {
     order: 3;
     margin-left: 4mm;
-    margin-top: -4mm;
+    margin-top: 0mm;
     margin-bottom: -0.3mm;
 }

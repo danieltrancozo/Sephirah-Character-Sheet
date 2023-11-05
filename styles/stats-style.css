@@ -4,117 +4,100 @@
 }
 .stats-box {
     text-align: left;
-    margin-top: -0.5cm;
-    margin-left: 5%;
-    width:  90%;
+    margin-left: 0.8mm;
+    width:  19.6cm;
     height: 2.4cm;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 14pt;
     display: flex;
     flex-direction: row;
-    border: 1mm black solid;
 }
 .stats-fisics {
     order: 1;
-    width: 6cm;
+    width: 6.4cm;
     height: 100%;
-    margin-top: 0px;
     display: flex;
     flex-direction: column;
-    margin-bottom: -0.5mm;
-    margin-left: -0.2mm;
-    border-right: 1mm black solid;
+    border: 1px black solid;
 }
 .stats-strenght {
     order: 1;
-    margin-top: 1mm;
+    margin-top: 2mm;
     display: flex;
     flex-direction: row;
 }
 .stats-dexterity {
     order: 2;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
 .stats-stamina {
     order: 3;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
-.stats-key {
-    margin-top: 0mm;
-    order: 1;
-    margin-left: 1.2mm;
-}
 .stats-social {
     order: 2;
-    width: 6cm;
+    width: 6.4cm;
     height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     display: flex;
     flex-direction: column;
-    margin-bottom: -0.5mm;
-    margin-left: -0.2mm;
-    border-right: 1mm black solid;
+    margin-left: 0.6mm;
+    border: 1px black solid;
 }
 .stats-manipulation {
     order: 1;
-    margin-top: 1mm;
+    margin-top: 2mm;
     display: flex;
     flex-direction: row;
 }
 .stats-charisma {
     order: 2;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
 .stats-presence {
     order: 3;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
 .stats-mental {
     order: 2;
-    width: 6cm;
+    width: 6.4cm;
     height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     display: flex;
     flex-direction: column;
-    margin-bottom: -0.5mm;
-    margin-left: -0.2mm;
+    margin-left: 0.6mm;
+    border: 1px black solid;
 }
 .stats-intuition {
     order: 1;
-    margin-top: 1mm;
+    margin-top: 2mm;
     display: flex;
     flex-direction: row;
 }
 .stats-memory {
     order: 2;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
 .stats-wits {
     order: 3;
-    margin-top: -3mm;
+    margin-top: 1mm;
     display: flex;
     flex-direction: row;
 }
 .stats-key {
     margin-top: 0mm;
-    width: 60%;
+    width: 70%;
     order: 1;
-    margin-left: 1.2mm;
+    margin-left: 3mm;
 }
 .stats-value {
     order: 2;
