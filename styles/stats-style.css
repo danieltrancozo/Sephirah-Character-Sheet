@@ -3,8 +3,8 @@
     text-transform: capitalize;   
 }
 .stats-box {
+    margin-top: 2mm;
     text-align: left;
-    margin-left: 0.8mm;
     width:  19.6cm;
     height: 1.6cm;
     text-transform: capitalize;
@@ -13,13 +13,16 @@
     display: flex;
     flex-direction: row;
 }
+.stats-box > div {
+    width: 32%;
+    height: 100%;
+    margin-left: 1%;
+    padding: 0%;
+}
 .stats-1 {
     order: 1;
-    width: 6.4cm;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px black solid;
 }
 .stats-strenght {
     order: 1;
@@ -35,12 +38,8 @@
 }
 .stats-2 {
     order: 2;
-    width: 6.4cm;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 0.6mm;
-    border: 1px black solid;
 }
 .stats-charisma {
     order: 1;
@@ -56,12 +55,8 @@
 }
 .stats-3 {
     order: 3;
-    width: 6.4cm;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 0.6mm;
-    border: 1px black solid;
 }
 .stats-intuition {
     order: 1;
@@ -87,5 +82,5 @@
     margin-left: 0px;
     height: 5mm;
     width: 1cm;
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
 }

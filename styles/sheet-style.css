@@ -13,14 +13,12 @@ body {
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
     margin-left: 0.5cm;
-    margin-right: 0.25cm;
+    margin-right: 0.5cm;
     border: 0.2cm black solid;
     text-align: center;
 }
 .background-image {
     position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
     height: 28.3cm;
     width: 19.6cm;
     background-image: url('../sephiroth-tree.png');
@@ -30,9 +28,8 @@ body {
     background-position-y: center;
 }
 td.value{
-    position: relative;
-    left: 3mm;
-    width: 1cm;
+    margin-left: 3mm;
+    width: 1.3cm;
     border-bottom: 2px black solid;
 }
 td.line{

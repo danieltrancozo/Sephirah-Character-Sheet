@@ -1,146 +1,173 @@
 .bodybox{
-    position: relative;
-    top: 0.2cm;
-    height: 20cm;
+    margin-top: 11.34px;
+    height: 756px;
     width: 19.6cm;
     display: flex;
     flex-direction: row;
     text-transform: capitalize;
 }
+.bodybox > div {
+    width: 32%;
+    height: 100%;
+    padding: 0%;
+}
 .coll1{
     -ms-flex-order: 1;
-    width: 6.4cm;
     display: flex;
     flex-direction: column;
+}
+.coll1 > div {
+    margin-left: 1.9mm;
 }
 .coll2{
     -ms-flex-order: 2;
-    width: 6.4cm;
-    margin-left: 1mm;
     display: flex;
     flex-direction: column;
+}
+.coll2 > div {
+    margin-left: 4.4mm;
 }
 .coll3{
     -ms-flex-order: 3;
-    width: 6.4cm;
-    margin-left: 1mm;
     display: flex;
     flex-direction: column;
 }
+.coll3 > div {
+    margin-left: 6.9mm;
+}
+.coll1, .coll2, .coll3 > div {
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 11.34px;
+}
 .abilitybox{
     -ms-flex-order: 1;
-    position: relative;
-    top: 1mm;
-    left: 1mm;
-    border: 1px black solid;
-    height: 15cm;
-    width: 6.4cm;
+    padding: 0%;
+    height: 14.6cm;
+    width: 100%;
 }
 .abilities-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .abilities-list{
-    margin-top: 3mm;
+    margin-top: 2mm;
+    padding: 0%;
     margin-left: 8mm;
     text-align: left;
 }
 .experience-box{
     -ms-flex-order: 2;
-    margin-top: 3mm;
-    margin-left: 1mm;
-    width: 6.4cm;
-    height: 4.8cm;
-    border: 1px black solid;
+    padding: 0%;
+    margin-top: 11.34px;
+    width: 100%;
+    height: 4.6cm;
+}
+.experience-table{
+    margin-left: 18mm;
+    padding: 0%;
+    margin-top: 2mm;
+    text-align: left;
+}
+.evolution-table{
+    margin-left: 8mm;
+    padding: 0%;
+    margin-top: 2mm;
+    text-align: left;
 }
 .magic-sources{
     -ms-flex-order: 1;
-    margin-top: 1mm;
-    margin-left: 1mm;
-    width: 6.4cm;
-    height: 3cm;
-    border: 1px black solid;
+    padding: 0%;
+    width: 100%;
+    height: 2.3cm;
 }
 .source-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .source-list{
-    margin-top: 3mm;
+    margin-top: 2mm;
+    padding: 0%;
     margin-left: 1cm;
     text-align: left;
 }
 .magic-afinities{
     -ms-flex-order: 2;
-    margin-top: 3mm;
-    margin-left: 1mm;
-    width: 6.4cm;
-    height: 4cm;
-    border: 1px black solid;
+    padding: 0%;
+    margin-top: 11.34px;
+    width: 100%;
+    height: 3.5cm;
 }
 .afinity-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .afinity-list{
-    margin-top: 3mm;
-    margin-left: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
+    margin-left: 11mm;
     text-align: left;
 }
 .blessings{
     -ms-flex-order: 3;
-    margin-top: 3mm;
-    margin-left: 1mm;
-    height: 12.35cm;
-    width: 6.4cm;
-    border: 1px black solid;
+    width: 100%;
+    padding: 0%;
+    margin-top: 11.34px;
+    height: 13.05cm;
 }
 .blessings-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .blessings-list{
-    margin-top: 3mm;
+    margin-top: 2mm;
+    padding: 0%;
     margin-left: 2mm;
     text-align: center;
 }
 .vitality-box{
     -ms-flex-order: 1;
-    width: 6.4cm;
-    height: 3cm;
-    margin-left: 1mm;
-    margin-top: 1mm;
-    border: 1px black solid;
+    padding: 0%;
+    height: 2.2cm;
 }
 .vitality-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .vitality-table{
-    margin-top: 3mm;
-    margin-left: 2cm;
-    text-align: center;
+    margin-left: 5mm;
+    padding: 0%;
+    margin-top: 2mm;
+    text-align: left;
 }
 .magic-box{
     -ms-flex-order: 2;
-    margin-top: 3mm;
-    margin-left: 1mm;
-    width: 6.4cm;
-    height: 3cm;
-    border: 1px black solid;
+    padding: 0%;
+    height: 2.2cm;
 }
 .magic-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
 }
 .mana-table{
-    margin-top: 3mm;
-    margin-left: 2cm;
+    margin-top: 2mm;
+    padding: 0%;
+    margin-left: 5mm;
     text-align: center;
 }
 .notes{
     -ms-flex-order: 3;
-    position: relative;
-    top: 3mm;
-    left: 1mm;
-    width: 6.4cm;
-    height: 13.17cm;
-    border: 1px black solid;
+    padding: 0%;
+    height: 14.45cm;
 }
 .notes-title{
-    margin-top: 5mm;
+    margin-top: 2mm;
+    padding: 0%;
+}
+.notes-box{
+    margin-top: 2mm;
+    border: 1px black solid;
+    margin-left: 1mm;
+    width: 6.1cm;
+    height: 13.5cm;
 }
